@@ -1,0 +1,86 @@
+NATURAL LANGUAGE TOOLKIT [NLTK]
+===============================
+
+Overview
+--------
+-What is NLTK
+-Features of NLTK
+-Tokenization
+-Stemming
+-Prediction
+-Stemming
+-Speech Tagging
+-Sentiment Analysis
+-Summmary
+-References
+
+
+What is Nltk?
+-------------
+The Natural Language Toolkit (NLTK) is a platform used for building Python programs that work with human language data for applying in statistical natural language processing (NLP).
+The Natural Language Toolkit is an open source library for the Python programming language originally written by Steven Bird, Edward Loper and Ewan Klein for use in development and education.
+
+Features of Nltk
+----------------
+-Tokenization
+-Stemming
+-Prediction
+-Stop words
+-Speech Tagging
+-Sentiment Analysis
+
+Tokenization
+------------
+A sentence or data can be split into words using the method word_tokenize().
+The same principle can be applied to sentences. Simply change the to sent_tokenize().
+
+Stemming
+--------
+A word stem is part of a word. It is sort of a normalization idea, but linguistic.
+For example, the stem of the word waiting is wait.
+[insert image named "stemming.png" in the slide]
+
+Prediction
+----------
+We can use natural language processing to make predictions.
+Example: Given a product review, a computer can predict if its positive or negative based on the text.
+To create our analysis program, we have several steps:
+-Data preparation
+-Feature extraction
+-Training
+-Prediction
+
+Stop words
+----------
+Text may contain stop words like ‘the’, ‘is’, ‘are’. Stop words can be filtered from the text to be processed.The nltk module contains a list of stop words.
+
+Speech Tagging
+--------------
+The module NLTK can automatically tag speech.
+Given a sentence or paragraph, it can label words such as verbs, nouns and so on.
+[insert image named "pos.png" in the slide]
+
+Sentiment Analysis
+------------------
+Given a movie review or a tweet, it can be automatically classified in categories.
+These categories can be user defined (positive, negative) or whichever classes you want.
+Classification is done using several steps: training and prediction.
+The training phase needs to have training data, this is example data in which we define examples. The classifier will use the training data to make predictions.
+
+Summary
+-------
+NLTK or Natural Language Toolkit is a platform used for building Python programs that work with human language data for applying in statistical natural language processing (NLP).
+NLTK provides features such as Tokenization, Stemming, Prediction, Stop words, Speech Tagging, Sentimental Analysis.
+
+References
+----------
+https://pythonspot.com/en/category/nltk/
+www.nltk.org/
+
+---------
+Thank You
+---------
+
+
+
+
